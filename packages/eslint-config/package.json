@@ -1,0 +1,39 @@
+{
+  "name": "@package/eslint-config",
+  "version": "0.0.1",
+  "private": true,
+  "main": "index.mjs",
+  "description": "Do things in one place lol",
+  "author": "Marko Cen<markocen@gmail.com>",
+  "repository": {
+    "url": "https://github.com/MarkoCen/cozystation"
+  },
+  "bugs": {
+    "url": "https://github.com/MarkoCen/cozystation/issues"
+  },
+  "license": "AGPL-3.0",
+  "engines": {
+    "node": ">=20.11.1 <22",
+    "pnpm": ">=9"
+  },
+  "packageManager": "pnpm@9.15.1",
+  "scripts": {
+    "lint": "eslint --fix --color ."
+  },
+  "devDependencies": {
+    "@eslint/js": "catalog:",
+    "@eslint/json": "catalog:",
+    "@package/tsconfig": "workspace:*",
+    "eslint": "catalog:",
+    "eslint-config-prettier": "catalog:",
+    "eslint-plugin-prettier": "catalog:",
+    "eslint-plugin-import": "catalog:",
+    "eslint-plugin-react": "catalog:",
+    "eslint-plugin-react-hooks": "catalog:",
+    "eslint-plugin-tailwindcss": "catalog:",
+    "eslint-plugin-json": "catalog:",
+    "globals": "^15.14.0",
+    "typescript-eslint": "catalog:",
+    "prettier": "catalog:"
+  }
+}

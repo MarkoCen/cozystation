@@ -1,0 +1,33 @@
+{
+  "name": "cozystation",
+  "version": "0.0.1",
+  "private": true,
+  "description": "Do things in one place lol",
+  "author": "Marko Cen<markocen@gmail.com>",
+  "repository": {
+    "url": "https://github.com/MarkoCen/cozystation"
+  },
+  "bugs": {
+    "url": "https://github.com/MarkoCen/cozystation/issues"
+  },
+  "license": "AGPL-3.0",
+  "engines": {
+    "node": ">=20.11.1 <22",
+    "pnpm": ">=9"
+  },
+  "packageManager": "pnpm@9.15.1",
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "build": "turbo run build",
+    "storybook": "turbo run storybook",
+    "dev": "turbo run dev",
+    "lint": "turbo run lint",
+    "test": "turbo run test"
+  },
+  "devDependencies": {
+    "turbo": "catalog:"
+  }
+}

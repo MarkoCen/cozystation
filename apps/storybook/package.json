@@ -1,0 +1,39 @@
+{
+  "name": "@app/storybook",
+  "version": "0.0.1",
+  "private": true,
+  "main": "index.mjs",
+  "description": "Do things in one place lol",
+  "author": "Marko Cen<markocen@gmail.com>",
+  "repository": {
+    "url": "https://github.com/MarkoCen/cozystation"
+  },
+  "bugs": {
+    "url": "https://github.com/MarkoCen/cozystation/issues"
+  },
+  "license": "AGPL-3.0",
+  "engines": {
+    "node": ">=20.11.1 <22",
+    "pnpm": ">=9"
+  },
+  "packageManager": "pnpm@9.15.1",
+  "scripts": {
+    "storybook": "storybook dev -p 6006",
+    "lint": "eslint --fix --color .",
+    "build": "storybook build"
+  },
+  "dependencies": {
+    "storybook": "catalog:"
+  },
+  "devDependencies": {
+    "@package/eslint-config": "workspace:*",
+    "@package/tsconfig": "workspace:*",
+    "@storybook/addon-essentials": "catalog:",
+    "@storybook/addon-interactions": "catalog:",
+    "@storybook/addon-onboarding": "catalog:",
+    "@storybook/blocks": "catalog:",
+    "@storybook/nextjs": "catalog:",
+    "@storybook/react": "catalog:",
+    "@storybook/test": "catalog:"
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "name": "@package/components",
+  "version": "0.0.1",
+  "private": true,
+  "main": "index.mjs",
+  "description": "Do things in one place lol",
+  "author": "Marko Cen<markocen@gmail.com>",
+  "repository": {
+    "url": "https://github.com/MarkoCen/cozystation"
+  },
+  "bugs": {
+    "url": "https://github.com/MarkoCen/cozystation/issues"
+  },
+  "license": "AGPL-3.0",
+  "engines": {
+    "node": ">=20.11.1 <22",
+    "pnpm": ">=9"
+  },
+  "packageManager": "pnpm@9.15.1",
+  "scripts": {
+    "lint": "eslint --fix --color . && tsc"
+  },
+  "dependencies": {
+    "react": "catalog:",
+    "react-dom": "catalog:"
+  },
+  "devDependencies": {
+    "@package/eslint-config": "workspace:*",
+    "@package/tsconfig": "workspace:*",
+    "@types/react": "catalog:",
+    "@types/react-dom": "catalog:",
+    "@storybook/react": "catalog:"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "name": "@package/tsconfig",
+  "version": "0.0.1",
+  "private": true,
+  "description": "Do things in one place lol",
+  "author": "Marko Cen<markocen@gmail.com>",
+  "repository": {
+    "url": "https://github.com/MarkoCen/cozystation"
+  },
+  "bugs": {
+    "url": "https://github.com/MarkoCen/cozystation/issues"
+  },
+  "license": "AGPL-3.0",
+  "engines": {
+    "node": ">=20.11.1 <22",
+    "pnpm": ">=9"
+  },
+  "packageManager": "pnpm@9.15.1",
+  "scripts": {},
+  "devDependencies": {
+    "typescript": "catalog:"
+  }
+}
